@@ -1,8 +1,6 @@
 // Breaks HTML into individual characters, and words,
 // without messing up the semantic structure.
 
-// This code uses LETTERER.JS
-// https://github.com/yairEO/letterer
 function letterer(element){
 	if( !document.createTreeWalker ) return false;
 	
